@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+:root{
+    --green: #16db93;
+    --green-dark: #13bc7e;
+    --light-grey: #f1f4f6; 
+}
+
+*{
+    font-family: 'Roboto', sans-serif;
+}
+
+/* misc stylings */
+ul li{
+    list-style-type: disc;
+}
+.container{
+    max-width: 1200px;
+}
+.display-1{
+    letter-spacing: 1px;
+}
+.bg-green{
+    background-color: var(--green)!important;
+}
+.btn{
+    border: 2px solid #fff;
+    border-radius: 1.5rem;
+    padding: 0.6rem 0;
+    width: 280px;
+}
+.bg-grey{
+    background-color: var(--light-grey);
+}
+.circle-icon{
+    width: 55px;
+    height: 55px;
+    border-radius: 50%;
+    background-color: var(--green);
+}
+.circle-icon-sm{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: var(--green);
+}
+.lh-lg{
+    line-height: 1.7!important;
+}
+.btn-green{
+    background-color: var(--green);
+    color: #fff;
+    padding: 0.55rem 0;
+    width: 140px;
+}
+.btn-green:hover{
+    color: var(--green);
+    background-color: #fff;
+    border-color: var(--green);
+}
+.text-justify {
+  text-align: justify;
+}
+/* bagian tentang depresi */
+.custom-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.col-lg-5 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.col-lg-5 img {
+    max-width: 100%;
+    height: auto;
+    margin: auto;
+}
+
+/* header */
+/* header{
+    height: 100vh;
+} */
+
+.navbar-brand .fa{
+    font-size: 1.3rem;
+}
+.nav-icons p{
+    font-size: 1rem;
+    margin-right: 0.6rem;
+}
+.btn-header:hover{
+    background-color: #fff;
+    color: var(--green)!important;
+}
+.phone-img img{
+    width: 500px;
+}
+
+
+
